@@ -126,5 +126,6 @@ for n in set(q.values()):
     print(n)
 message = input("tell me somthing and t will tell you: ")
 print(message)
+print("测试feature")
 
 
