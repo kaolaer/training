@@ -124,7 +124,32 @@ for color in alien_0.values():
 q = {1: 2, 1: 1, 3: 2, 4: 4}
 for n in set(q.values()):
     print(n)
-message = input("tell me somthing and t will tell you: ")
+# message = input("tell me somthing and t will tell you: ")
 print(message)
+print("测试feature")
 
 
+def name(pet, me):
+    print(pet, me)
+
+
+name(me="mf", pet=1)
+
+
+def test1(mr, gi, **c):
+    p = {}
+    p['name'] = mr
+    p['age'] = gi
+    for k, v in c.items():
+        p[k] = v
+    return p
+
+
+q = test1("nn", "mm", gg="ii", pp="gg")
+print(q)
+
+app = {1: 1, 2: 2}
+print(app[1])
+
+def test2(m, g, *k, **l):
+    
